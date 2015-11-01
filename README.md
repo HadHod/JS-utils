@@ -1,9 +1,13 @@
 JS utils
 ========
 
+## Available utils
+
+* isNumber
+* isArray
+* escaleHTML
+
 ## TODO
 
-* function isNumber(n){ return !isNaN(parseFloat(n)) && isFinite(n); }
-* function isArray(obj){ return Object.prototype.toString.call(obj) === '[object Array]' ; }
-* function escapeHTML(text) { var replacements= {"<": "&lt;", ">": "&gt;","&": "&amp;", "\"": "&quot;"}; return text.replace(/[<>&"]/g, function(character) { return replacements[character]; });  }
-* is in array prototype
+* tests
+* gulp
