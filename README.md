@@ -6,8 +6,9 @@ JS utils
 * isNumber
 * isArray
 * escaleHTML
+* console.todo
+* console.important
 
 ## TODO
 
 * tests
-* gulp

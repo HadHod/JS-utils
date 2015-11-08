@@ -1,0 +1,25 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "JS utils ========",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadHod/JS-utils.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Maciej Młynarski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HadHod/JS-utils/issues"
+  },
+  "homepage": "https://github.com/HadHod/JS-utils#readme",
+  "dependencies": {
+    "gulp": "^3.9.0"
+  }
+}
