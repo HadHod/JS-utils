@@ -4,7 +4,7 @@
   "description": "JS utils ========",
   "main": "main.js",
   "scripts": {
-    "test": "test"
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,13 @@
   "homepage": "https://github.com/HadHod/JS-utils#readme",
   "dependencies": {
     "gulp": "^3.9.0"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.15",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-requirejs": "^0.2.2",
+    "requirejs": "^2.1.20"
   }
 }
